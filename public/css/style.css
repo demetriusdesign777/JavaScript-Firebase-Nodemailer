@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/********** UNIVERSAL **********/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    height: 60px;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h1.logo {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+section.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 450px;
+    background: #36b242;
+}
+
+div.formDiv {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.title {
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+form.form {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    position: relative;
+}
+
+div.messageDiv {
+    position: absolute;
+    top: 10px;
+    height: 30px;
+    width: 200px;
+    border: 2px solid #36b242;
+    font-size: 14px;
+    align-items: center;
+    display: none;
+}
+
+div.messageDiv .messageDiv-p {
+    width: 96%;
+    margin-left: 10px;
+    color: #36b242;
+}
+
+div.inputDiv {
+    margin: 30px 0 0 0;
+    width: 75%;
+}
+
+div.emailDiv {
+    margin: 80px 0 0 0;
+}
+
+div.inputDiv span {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+div.inputDiv input.emailInput {
+    border: 2px solid #36b242;
+    height: 50px;
+    width: 98.5%;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+form.form .loginSubmitBtn {
+    margin: 30px 0 0 0;
+    width: 75%;
+    height: 50px;
+    outline: 0px;
+    background: #b3365e;
+    font-size: 18px;
+    border: 2px solid #b3365e;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 575px) and (min-width: 320px) {
+    
+    /********** UNIVERSAL **********/
+    
+    header {
+        justify-content: center;
+    }
+    
+    h1.logo {
+        margin: 0 0 0 0;
+    }
+    
+    div.formDiv {
+        width: 90%;
+        max-width: 400px;
+    }
+
+}

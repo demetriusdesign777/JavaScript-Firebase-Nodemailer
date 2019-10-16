@@ -1,0 +1,15 @@
+<link href="https://www.fontify.me/wf/c2006b02559beb9a6f27afa563c6d906" rel="stylesheet" type="text/css">
+<style>
+body{
+font-family: font72094;
+}
+</style>
+  
+OR
+
+<style>
+@import url('https://www.fontify.me/wf/c2006b02559beb9a6f27afa563c6d906');
+body{
+font-family: font72094;
+}
+</style>
